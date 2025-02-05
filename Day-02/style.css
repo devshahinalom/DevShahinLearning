@@ -1,0 +1,57 @@
+h1{
+    color: rgb(0, 0, 0);
+    background: green;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 0;
+    font-family: monospace;
+    font-size: 50px;
+    font-weight: 900;
+    font-style: oblique;
+}
+body{
+    padding: 0;
+    margin: 0;
+    /* max-width: ; */
+}
+button{
+    padding: 15px 30px;
+    margin: 0 90px;
+    background: rgb(6, 228, 6);
+    border: 2px solid rgb(14, 12, 12);
+    border-radius: 10px;
+    font-size: 30px;
+    /* color: wh; */
+    font-weight: 600;
+}
+button:hover{
+    color: white;
+    border: none;
+    font-size: 35px;
+}
+#box{
+    border: 2px solid black;
+    height: 300px;
+    width: 300px;
+    margin-left: 70px;
+    background: rgb(210, 238, 243);
+}
+.box{
+    height: 70px;
+    width: 70px;
+    border: 2px solid black;
+}
+.box2{
+    padding: 30px;
+    margin-left: 20px;
+}
+.box3{
+    margin-left: 30px;
+    margin-top: 10px;
+}
+.box1:hover{
+    margin-left: 30px;
+    padding: 50%;
+    background: aqua;
+}
