@@ -1,51 +1,73 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Day 02</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <h1>Shahin Alom</h1>
-        <button>
-            Hire Me
-        </button>
+    <button>
+        Hire Me
+    </button>
 
-        <div id="box">
-            <div class="box box1">1</div>
-            <div class="box box2">2</div>
-            <div class="box box3">3</div>
+    <div id="box">
+        <div class="box box1">1</div>
+        <div class="box box2">2</div>
+        <div class="box box3">3</div>
+    </div>
+
+    <!-- Form -->
+
+    <form action=" submit" class="singup">
+
+        <div>
+            <!-- Name -->
+            <label for="name"> Full Name</label>
+            <input type="text" id="name" name="name" required>
+
+        </div>
+        <div>
+            <!-- Username -->
+            <label for="username"> Username</label>
+            <input type="text" id="username" name="username" required>
         </div>
 
-        <!-- Form -->
+        <div>
+            <!-- E-mail -->
+            <label for="email"> Enter E-Mail</label>
+            <input type="email" id="email" name="email" placeholder="Enter Your E-mail" required>
+        </div>
 
-                <form action=" submit" class="singup">
+            <!-- Input -->
+             <div>
+                <input type="radio">
+                <input type="radio">
+             </div>
+             <div>
+                <input type="checkbox">
+             </div>
 
-                    <!-- Name -->
-                        <label for="name"> Full Name</label>
-                        <input type="text" id="name" name="name" required>
+        <div>
+            <!-- Password -->
+            <label for="password"> Password</label>
+            <input type="text" id="password" name="Password" placeholder="Enter Password" required>
+        </div>
 
-                        <!-- Username -->
-                         <label for="username"> Username</label>
-                         <input type="text" id="username" name="username" required>
+        <div> <!-- Confirm Password -->
+            <label for="confirmpass">Confirm Password</label>
+            <input type="text" id="confirmpass" name="Confirmpass" placeholder="Confirm Password" required>
+        </div>
 
-                         <!-- E-mail -->
-                         <label for="email"> Enter E-Mail</label>
-                         <input type="email" id="email" name="email" placeholder="Enter Your E-mail" required>
+        <!-- Button -->
+        <button>Submit</button>
+    </form>
 
-                         <!--  -->
 
-                         <!-- Password -->
-                         <label for="password"> Password</label>
-                         <input type="text" id="password" name="Password" placeholder="Enter Password" required>
-                         
-                         <!-- Confirm Password -->
-                         <label for="confirmpass">Confirm Password</label>
-                         <input type="text" id="confirmpass" name="Confirmpass" placeholder="Confirm Password" required>
 
-                         <!-- Button -->
-                        <button>Submit</button>
-                </form>
 </body>
+
 </html>
