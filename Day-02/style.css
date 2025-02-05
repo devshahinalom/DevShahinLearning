@@ -36,6 +36,7 @@ button:hover{
     width: 300px;
     margin-left: 70px;
     background: rgb(210, 238, 243);
+    margin-bottom: 100px;
 }
 .box{
     height: 70px;
@@ -54,4 +55,12 @@ button:hover{
     margin-left: 30px;
     padding: 50%;
     background: aqua;
+}
+
+/* Form CSS */
+
+.singup{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
