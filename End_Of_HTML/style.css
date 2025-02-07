@@ -9,6 +9,7 @@ header{
     align-items: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
     margin-bottom: 30px;
+    background: #f7dddd;
 }
 header span{
     color: red;
@@ -24,4 +25,17 @@ header ul{
     font-size: medium;
     font-weight: 500;
  
+}
+main{
+    background: #f0ecec;
+}
+main .frame{
+    text-align: center;
+    margin: 20px;
+}
+footer .foot{
+    text-align: center;
+    background: #fbdddd;
+    padding:  10px;
+    display: block;
 }
