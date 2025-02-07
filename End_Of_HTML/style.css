@@ -1,0 +1,27 @@
+iframe{
+    width: 360px;
+    height: 220px;
+    padding: 12px;
+}
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-bottom: 30px;
+}
+header span{
+    color: red;
+    font-size: 40px;
+    font-weight: 700;
+}
+header ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    list-style: none;
+    font-size: medium;
+    font-weight: 500;
+ 
+}
