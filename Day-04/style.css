@@ -3,9 +3,27 @@
     width: 500px;
     background: rgb(60, 175, 241);
     border: 2px solid black;
+    /* box-sizing: border-box; */
 }
 .box{
     height: 80px;
     width: 80px;
     border: 2px solid black;
+}
+
+.box1{
+    margin: 20px;
+}
+.box2{
+    margin: 20px;
+}
+.box3{
+    padding: 30px;
+    margin-left: 40%;
+}
+.box4{
+    margin-left: 100px;
+}
+.box5{
+    margin: -20px 10px;
 }
