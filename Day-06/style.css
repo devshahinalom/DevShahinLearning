@@ -1,0 +1,8 @@
+p{
+    background-color: blue;
+    color: white;
+}
+p:first-child {
+    background-color: rgb(246, 255, 0);
+    color: red;
+}
