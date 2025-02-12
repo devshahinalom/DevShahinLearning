@@ -1,13 +1,18 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
-.px{
+
+.px {
     background-color: red;
     width: 250px;
     text-align: center;
 }
-.vw{
+
+.VwVh {
     background: aqua;
     width: 100vw;
+    height: 20vh;
+    /* 1em = Default value / & Default font size 16 px */
+    font-size: 1rem;
 }
