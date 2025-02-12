@@ -1,0 +1,13 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.px{
+    background-color: red;
+    width: 250px;
+    text-align: center;
+}
+.vw{
+    background: aqua;
+    width: 100vw;
+}
