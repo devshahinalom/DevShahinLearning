@@ -13,3 +13,27 @@
     text-align: center;
     cursor: pointer;
 }
+.listyle{
+    text-align: center;
+}
+.listyle ul{
+    background: rgb(50, 184, 50);
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 25px;
+    list-style: none;
+}
+.listyle ul li{
+    font-weight: 500;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.Overflow{
+    
+    margin: 40px auto;
+    height: 30vh;
+    width: 60vw;
+    border: 2px solid;
+    overflow: auto;
+
+}
