@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.mainBox{
+    border: 2px solid black;
+    height: 600px;
+    width: 600px;
+}
+.box{
+    border: 2px solid black;
+    height: 100px;
+    width: 100px;
+    border-radius: 10px;
+    /* margin: 10px; */
+}
