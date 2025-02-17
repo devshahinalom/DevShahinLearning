@@ -4,9 +4,12 @@
 }
 .mainBox{
     border: 2px solid black;
-    height: 600px;
+    height: 800px;
     width: 600px;
     background: #e9e6e6;
+    margin: 5px;
+    padding: 5px;
+    position: relative;
 }
 .box{
     border: 2px solid black;
@@ -14,20 +17,37 @@
     width: 100px;
     border-radius: 10px;
     /* margin: 10px; */
+    padding: 5px;
+
     
 }
 .box1{
     background: aqua;
+    position: absolute;
+    top: 3px;
+    z-index: 1;
 }
 .box2{
     background: pink;
+    position: relative;
+    top: 30px;
+    left: 20px;
 }
 .box3{
     background: yellow;
 }
 .box4{
     background: #01ff38;
+    position: relative;
+    bottom: 40px;
+    right: 30px;
 }
 .box5{
     background: yellowgreen;
+    position: fixed;
+}
+h2{
+    text-align: center;
+    position: sticky;
+    top: 0;
 }
