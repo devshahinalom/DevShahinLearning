@@ -39,3 +39,16 @@ footer{
     background: var(--secolor);
     text-align: center;
 }
+body{
+    background: green;
+}
+
+
+@media only screen and (max-width: 330px) {
+    body{
+        background: #000000;
+    }
+    footer{
+        background: gray;
+    }
+}
