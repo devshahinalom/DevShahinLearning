@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+body{
+    background: #080026;
+    
+}
+
+        /* Navigation Menu */
+
+nav{
+    background: #034dab;
+    padding: 15px 0;
+    position: sticky;
+    top: 0;
+
+}
+nav div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 90vw;
+    margin: auto;
+
+}
+nav div ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    gap: 3rem;
+    
+}
+nav div ul li a{
+    text-decoration: none;
+    color: #000;
+    font-weight: 600;
+}
+nav div p a{
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+        /* Main */
+
+        /* main div{
+            width: 50%;
+        } */
+        main{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 2rem;
+            max-width: 90vw;
+            margin: auto;
+            color: rgb(255, 255, 255);
+        }
+        main div img{
+            width: 50vw;
+        }
+        /* .about-txt{
+            gap: 2rem;
+        } */
+        main div p{
+            width: 300px;
+        }
+        main div h2{
+            /* padding: 4px; */
+            font-size: 2em;
+            font-weight: 600;
+        }
+        main div h2 span{
+            color: #034dab;
+            font-weight: 800;
+        }
+        span{
+            color: #034dab;
+        }
+        /* main div{
+            display: ;
+        } */
+
+        /* fixed */
+
+         .fixed{
+            position: fixed;
+            bottom: 0;
+            right: 0;
+         }
+         .fixed img{
+            width: 50px;
+         }
+
+         /* welcome */
+         .welcome{
+            color: rgb(255, 255, 255);
+            width: 90vw;
+            /* height: 20vh; */
+            margin: auto;
+            text-align: center;
+            background: #034dab;
+            border: 1px solid black;
+            border-radius: 10px;
+            padding: 40px 0;
+            margin: 70px;
+         }
+         .welcome p{
+            font-size: 30px;
+            font-weight: 600;
+            
+
+         }
+
+         /* footer */
+
+         footer{
+            background: #374e6b;
+         }
+         footer div{
+            max-width: 90vw;
+            margin: auto;
+            text-align: center;
+            padding: 10px;
+         }
+         footer div p span{
+            color: #1d0180;
+         }
