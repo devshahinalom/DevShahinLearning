@@ -15,4 +15,6 @@
 }
 .mainbox{
     display: grid;
+    justify-content: first baseline;
+    /* align-content: center; */
 }
